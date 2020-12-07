@@ -24,6 +24,14 @@
       "device": {
         "avdName": "5200c794439ab5fd"
       }
+    },
+    "android.emu.debug": {
+      "type": "android.emulator",
+      "binaryPath": "android/app/build/outputs/apk/debug/app-debug.apk",
+      "build": "cd android ; ./gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug ; cd -",
+      "device": {
+        "avdName": "Pixel_API_28_AOSP"
+      }
     }
   }
 }
